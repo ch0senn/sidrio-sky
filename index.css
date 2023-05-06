@@ -1,0 +1,89 @@
+.video-container{
+  position: fixed; 
+  width: 100%; 
+  height: auto;
+}
+
+.overlay {
+    background-image: linear-gradient(to right bottom,#000000,#000000);
+    opacity: .3;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+.body-text{
+  color: white; 
+  position: absolute;
+}  
+
+.welcome{
+  font-size: 3rem; 
+  font-weight: 700; 
+  margin-top: 14rem; 
+  margin-left: 25rem;
+}
+
+.welcome-text{
+  margin-top: 10px; 
+  margin-left: 10rem; 
+  margin-right: 10rem;
+}
+
+#facts{
+  position: absolute; 
+  color: white; 
+  margin-top: 30rem;
+  margin-left: 6rem;
+}
+
+#fact-head{
+  color: rgb(6, 236, 252);
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+#fact-head:hover{
+  color: yellow;
+}
+
+#fact-ans{
+  font-size: 20px; 
+  font-weight: 600;
+}
+
+.explore-btn:hover{
+  background-color: rgb(255, 255, 0);
+  border-color: rgb(255, 255, 0);
+  font-weight: 600;
+}
+
+.explore-box:hover{
+  border-radius: 5px; 
+  box-shadow: 0  0 10px  #fcfcfc;
+}
+
+.social-media a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background: rgb(60, 255, 0);
+  border: .2rem solid rgb(102, 255, 0);
+  border-radius: 50%;
+  font-size: 2rem;
+  color: black;
+  margin: 2rem;
+  transition: 0.5s ease;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  box-shadow: 0 0 1rem white;
+}
+  
